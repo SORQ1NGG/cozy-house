@@ -1,0 +1,1 @@
+module.exports = {    root: true,    env: {        browser: true,        node: true,    },    parser: 'vue-eslint-parser',    parserOptions: {        ecmaVersion: 'latest',        sourceType: 'module',    },    extends: ["@nuxt/eslint-config"],    plugins: [],    rules: {}}
