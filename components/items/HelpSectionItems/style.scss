@@ -1,0 +1,1 @@
+.help-item {  &-container {    display: flex;    flex-direction: column;    align-items: center;  }  &-text {    padding-top: calc-rem(30px);  }}@media #{$mXs} {  .help-item {    &-text {      font-size: calc-rem(15px);      line-height: calc-rem(17px);      letter-spacing: 0.06em;    }  }}
