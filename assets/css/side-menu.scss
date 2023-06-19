@@ -1,0 +1,1 @@
+.side-menu {  @include size(calc-rem(450px), 100%);  position: absolute;  right: 0;  top: 0;  box-shadow: 0 0 calc-rem(150px) 0 $cPrimary;  border: 2px solid $cLight-S;  border-top: none;  background-color: $cDark-L;  @media #{$mSm} {    width: 360px;  }  @media #{$mXs} {    width: 304px;  }  &-wrap {    background-color: $cDark3xl;    overflow: hidden;  }}
