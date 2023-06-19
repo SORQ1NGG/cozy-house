@@ -4,16 +4,26 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "lint": "eslint .",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@nuxtjs/eslint-module": "^4.1.0",
     "@types/node": "^18",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.14.1",
     "nuxt": "^3.5.2"
   },
   "dependencies": {
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nuxt-swiper": "^1.1.0",
+    "prettier": "^2.8.8",
     "sass": "^1.63.4",
     "sass-loader": "^13.3.2"
   }
