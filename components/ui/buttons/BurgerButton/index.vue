@@ -1,0 +1,1 @@
+<script>export default {  name: 'BurgerButton',};</script><script setup>const props = defineProps({  opened: {    type: Boolean,  },});</script><template>  <button      class="burger-button"      :class="{ 'burger-button--opened': props.opened }"      type="button"  >    <i/><i/><i/>  </button></template><style src="./style.scss" lang="scss" scoped/>
