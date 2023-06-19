@@ -1,0 +1,1 @@
+<script>export default {  name: 'PaginationButton'}</script><script setup>const props = defineProps({  title: {    type: [String, Object],    default: null,  },})</script><template>  <button class="pagination-btn">    <span class="button__text title-h4">{{ props.title }}</span>  </button></template><style src="./style.scss" lang="scss" scoped/>
