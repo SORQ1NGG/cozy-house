@@ -1,0 +1,1 @@
+<script>export default {  name: 'Logo'}</script><template>  <NuxtLink to="/" class="logo-link">    <div class="logo-link__title">      Cozy House    </div>    <div class="logo-link__subtitle">      Shelter for pets in Boston    </div>  </NuxtLink></template><style src="./style.scss" lang="scss" scoped/>
