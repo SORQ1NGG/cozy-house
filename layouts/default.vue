@@ -1,0 +1,1 @@
+<script>export default {  name: 'DefaultLayout'}</script><script setup>import HeaderSection from "../components/HeaderSection";import FooterSection from "../components/FooterSection";</script><template>  <HeaderSection/>  <slot/>  <FooterSection/></template>
